@@ -3,7 +3,7 @@ export function fetchMessage() {
         type: 'API_FETCH_MESSAGE',
         payload: 'message text',
         meta: {
-            throttle: 2000
+            // throttle: 2000
         }
     }
 }
